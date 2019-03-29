@@ -6,7 +6,7 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/11 15:12:45 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/29 14:21:32 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/03/29 16:43:16 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,6 @@
 
 # include <mlx.h>
 # include <math.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
