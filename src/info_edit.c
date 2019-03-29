@@ -6,29 +6,44 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/10 15:17:22 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/11 17:07:16 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/03/29 14:34:28 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 void	reset_info(t_info *info)
 {
-	info->x1 = 0;
-	info->y1 = 0;
-	info->x2 = 0;
-	info->y2 = 0;
-	info->amp = 1;
-	info->w = 32;
-	info->set = 0;
-	info->pas = 50;
-	info->wh = 1080;
-	info->ww = 1920;
-	info->ih = info->wh - 50;
-	info->iw = 6 * info->ww / 8;
-	info->sx = info->iw / 2;
-	info->sy = 5 * info->ih / 100;
-	info->ix = info->ww / 8;
-	info->iy = 75;
-	info->proj = 1;
+	info->ww = 1600;
+	info->wh = 900;
+	info->iw = info->ww - 400;
+	info->ih = info->wh;
+	info->ix = 0;
+	info->iy = 0;
+	info->xup = 2;
+	info->xdown = -2;
+	info->yup = 2;
+	info->ydown = -2;
+	info->pas = 0.1;
+	info->acc = 50;
+	info->movex = 0;
+	info->movey = 0;
+	info->color = 9;
+	info->julia_cap = 1;
+	info->mand = 1;
+	info->drag = 0;
+	info->hud = 1;
+	info->nb_thrd = 20;
+}
+
+void	reset_info_0(t_info *info)
+{
+	info->xup = 2;
+	info->xdown = -2;
+	info->yup = 2;
+	info->ydown = -2;
+	info->acc = 100;
+	info->movex = 0;
+	info->movey = 0;
+	info->drag = 0;
 }
