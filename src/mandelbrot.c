@@ -6,7 +6,7 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/11 15:51:06 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/29 14:36:33 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/04/02 17:01:37 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ void	*mandelbrot(void *thrds)
 {
 	t_info	info;
 	t_thrd	thrd;
-	float	x;
-	float	y;
+	double	x;
+	double	y;
 
 	thrd = *(t_thrd *)thrds;
 	info = *(thrd.info);

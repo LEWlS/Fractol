@@ -6,7 +6,7 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/11 15:12:45 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/04/02 12:05:18 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/04/02 17:07:14 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ typedef	struct s_complex	t_complex;
 
 struct			s_complex
 {
-	float		a;
-	float		b;
+	double		a;
+	double		b;
 };
 
 struct			s_thrd
@@ -53,12 +53,12 @@ struct			s_info
 {
 	void		*pt;
 	void		*wn;
-	float		xup;
-	float		xdown;
-	float		yup;
-	float		ydown;
-	float		movex;
-	float		movey;
+	double		xup;
+	double		xdown;
+	double		yup;
+	double		ydown;
+	double		movex;
+	double		movey;
 	int			wh;
 	int			ww;
 	char		*addr;
@@ -70,14 +70,14 @@ struct			s_info
 	int			x1;
 	int			y1;
 	int			ydiff;
-	float		pas;
+	double		pas;
 	int			acc;
 	int			proj;
 	int			color;
-	int			julia_cap;
+	char		julia_cap;
 	int			mand;
-	int			drag;
-	int			hud;
+	char		drag;
+	char		hud;
 	int			nb_thrd;
 	t_complex	julia;
 	t_mthrds	mthrds;

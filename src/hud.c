@@ -6,7 +6,7 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/14 15:42:13 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/29 13:33:01 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/04/02 17:22:52 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	put_top_info(t_info *info)
 	if ((info->proj == 1 || info->proj == 2) && info->mand == 1)
 		mlx_string_put(info->pt, info->wn, 1320, 15, c, "Mandelbrot");
 	else if ((info->proj == 1 || info->proj == 2) && info->mand == -1)
-		mlx_string_put(info->pt, info->wn, 1320, 15, c, "Mandelbrat");
+		mlx_string_put(info->pt, info->wn, 1320, 15, c, "Mandelbar");
 	else if (info->proj == 3 || info->proj == 4)
 		mlx_string_put(info->pt, info->wn, 1320, 15, c, "Julia");
 	put_bar_2(info, 226, 246);
