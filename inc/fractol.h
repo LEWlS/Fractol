@@ -6,14 +6,14 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/11 15:12:45 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/29 16:43:16 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/04/02 12:05:18 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include <mlx.h>
+# include "../mlx/mlx.h"
 # include <math.h>
 # include <unistd.h>
 # include <stdlib.h>

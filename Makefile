@@ -6,7 +6,7 @@
 #    By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/07 16:52:52 by lbonnete          #+#    #+#              #
-#    Updated: 2019/03/29 14:36:40 by lbonnete         ###   ########.fr        #
+#    Updated: 2019/04/02 12:04:55 by lbonnete         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ INC = inc/fractol.h
 all: $(NAME) 
 
 $(NAME):
+	make -C mlx/
 	gcc $(FLAGS) -c $(SRC) -I $(INC)
 	gcc -o $(NAME) -I /usr/local/include  $(OBJ) -L /usr/local/lib/ -l mlx -framework OpenGL -framework AppKit -lpthread
 	mv $(OBJ) $(OBJDIR)

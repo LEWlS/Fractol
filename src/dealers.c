@@ -6,7 +6,7 @@
 /*   By: lbonnete <lbonnete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/10 15:16:24 by lbonnete          #+#    #+#             */
-/*   Updated: 2019/03/29 13:40:01 by lbonnete         ###   ########.fr       */
+/*   Updated: 2019/04/02 12:16:24 by lbonnete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ void	mouse_move_2(int x, int y, t_info *info)
 	x = (info->xup - info->xdown) / 2;
 	c = info->x1 * 1.0;
 	d = info->y1 * 1.0;
-	a = ((a / info->iw) * (info->xup - info->xdown) - x) / 6;
-	b = ((b / info->iw) * (info->xup - info->xdown) - x) / 6;
-	c = ((c / info->iw) * (info->xup - info->xdown) - x) / 6;
-	d = ((d / info->iw) * (info->xup - info->xdown) - x) / 6;
+	a = ((a / info->iw) * (info->xup - info->xdown) - x) / 7;
+	b = ((b / info->iw) * (info->xup - info->xdown) - x) / 7;
+	c = ((c / info->iw) * (info->xup - info->xdown) - x) / 7;
+	d = ((d / info->iw) * (info->xup - info->xdown) - x) / 7;
 	info->movex += c - a;
 	info->movey += d - b;
 }
@@ -37,7 +37,7 @@ int		mouse_move(int x, int y, t_info *info)
 	float	a;
 	float	b;
 
-	if (info->drag)
+	if (info->drag && x >= 0 && y >= 0 && x <= info->iw && y <= info->ih)
 		mouse_move_2(x, y, info);
 	if (info->julia_cap)
 	{
@@ -54,7 +54,7 @@ int		mouse_move(int x, int y, t_info *info)
 
 int		mouse_press(int button, int x, int y, t_info *info)
 {
-	if (button == 1)
+	if (button == 1 && x >= 0 && y >= 0 && x <= info->iw && y <= info->ih)
 	{
 		info->x1 = x;
 		info->y1 = y;
