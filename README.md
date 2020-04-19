@@ -8,8 +8,8 @@ Une fois le coeur du programme devellopé et les conditions du sujet respectées
   <img width="460" height="300" src="https://media.giphy.com/media/UtPWJoTZ9wnlWkQMrW/giphy.gif">
 </p>
 
- Pictures | 
-:-------------------------:|:-------------------------:
+  | 
+-------------------------|-------------------------
 ![](meds/pic1.png)  |  ![](meds/pic2.png)
 ![](meds/pic5.png)  |  ![](meds/pic4.png)
 ![](meds/pic3.png)  | ![](meds/pic6.png) 
