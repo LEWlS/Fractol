@@ -6,7 +6,6 @@ Une fois le coeur du programme devellopé et les conditions du sujet respectées
 
  Samples | Samples
 -------------------------|-------------------------
-![](meds/pic3.png)  | ![](meds/dezoom.gif) 
 ![](meds/pic1.png)  |  ![](meds/pic2.png)
 ![](meds/pic4.png)  |  ![](meds/pic5.png)
-
+![](meds/pic3.png)  | ![](meds/dezoom.gif) 
