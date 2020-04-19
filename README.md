@@ -5,7 +5,7 @@ L'objectif était de réaliser un visualisateur de Fractale. Il a été nécessa
 Une fois le coeur du programme devellopé et les conditions du sujet respectées, j'ai essayé de construire une interface intuitive et d'améliorer l'ergonomie de mon visualisateur. C'est comme ça que j'ai réfléchie pour la première fois à l'UX Design et surtout que j'ai entrevue la complexité du domaine.
 
 <p align="center">
-  <img width="460" height="300" src="https://media.giphy.com/media/UtPWJoTZ9wnlWkQMrW/giphy.gif">
+  <img width="920" height="600" src="https://media.giphy.com/media/UtPWJoTZ9wnlWkQMrW/giphy.gif">
 </p>
 
  1 | 2
