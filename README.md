@@ -1,4 +1,4 @@
-# Fractale
+# Fractol
 
 L'objectif était de réaliser un visualisateur de Fractale. Il a été nécessaire d'assimiler quelques notions de mathématiques concernant les nombres complexes et les suites, qui n'étaient pas nouvelles pour moi. Il a aussi fallut prendre en main une bibliothèque de programmation graphique, ici, celle de l'école 42.
 
